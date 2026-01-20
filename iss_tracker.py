@@ -24,7 +24,7 @@ while True:
 
     distance = geodesic(iss_position, dedemsvaart).kilometers # bereken de afstand tot Dedemsvaart
 
-    print(f"Latitude: {latitude}° | Longitude:{longitude}° | Distance to Dedemsvaart : {distance:.0f} km| Time: {current_time}") # print de positie en tijd
+    print(f"Latitude: {latitude}° | Longitude:{longitude}° | Distance to Dedemsvaart : {distance:.0f} km| Time: {current_time}") # print de positie en tijd en afstand 
 
 
     time.sleep(5) # wacht 5 seconden voordat je de volgende update ophaalt
