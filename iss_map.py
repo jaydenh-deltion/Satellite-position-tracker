@@ -39,6 +39,8 @@ folium.PolyLine( # teken een lijn tussen ISS en Dedemsvaart
     opacity=0.8,
 ).add_to(iss_map)
 
+print(f"Latitude: {latitude}° | Longitude:{longitude}° | Time: {datetime.fromtimestamp(data['timestamp'])}") # print de positie en tijd
+
 iss_map.save("iss_map.html")
 
 print("Map created and saved as iss_map.html")
